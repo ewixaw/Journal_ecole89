@@ -1,0 +1,144 @@
+body{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-areas: "gauche droite";
+    overflow-y: scroll;
+}
+
+#gauche{
+    grid-area: gauche;
+    background-image: url(../images/nicole.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+#droite{
+    grid-area: droite;
+    background-color: #f9f9f9;
+}
+
+/* Partie de gauche */
+
+#logo89{
+    display: inline;
+    vertical-align: text-top;
+    height: 8vh;
+    margin-right: 5vh;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 400;
+    color: white;
+    text-decoration: underline solid blue 1px;
+    width: min-content;
+    display: inline-flex;
+    line-height: 6vh;
+}
+
+#latest-news{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: right;
+    margin: 2vh;
+    padding: 2vh;
+    margin-top: 30vh;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 3.5vh;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-size: 2.5vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+footer ul li{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3px;
+}
+
+footer ul li a.bas-de-page{
+    color: white;
+    text-transform: capitalize;
+}
+
+footer ul li a.bas-de-page:hover{
+    color: rgb(212, 212, 212);
+    text-transform: capitalize;
+}
+
+/* Partie de droite */
+
+#news{
+    margin: 3vh 0;
+    margin-left: 1vh;
+}
+
+h4{
+    font-size: 2vh;
+    text-transform: uppercase;
+    display: inline;
+    color: white;
+    background-color: #98DC62;
+    padding: 1vh 1vh;
+}
+
+h3{
+    margin-top: 2vh;
+    font-size: 4vh;
+    font-style: bold;
+    text-transform: capitalize;
+    padding-bottom: 2vh;
+}
+
+.prof-pic{
+    height: 6vh;
+    float: left;
+    padding-right: 2vh;
+}
+
+.nom-date{
+    padding-bottom: 2vh;
+}
+
+h5{
+    display: inline;
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+h6{
+    display: inline;
+    color: grey;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+#reunion{
+    height: 350px;
+    width: auto;
+    display: block;
+    margin: 2vh auto;
+    padding: 15px;
+    border: solid black 1px;
+}
+
+a#rtr{
+    text-decoration: underline solid 1px;
+}
